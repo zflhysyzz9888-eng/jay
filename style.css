@@ -52,7 +52,7 @@ body {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(135deg, #FFD700, #B8860B);
+    background: linear-gradient(135deg, #a18cd1, #6a11cb);
     color: white;
 }
 
@@ -110,4 +110,5 @@ body.dark-mode .content-section {
 body.dark-mode .nav-links a {
     color: #f4f4f4;
 }
+
 
