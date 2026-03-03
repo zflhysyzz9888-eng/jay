@@ -44,15 +44,17 @@ body {
     font-weight: 500;
 }
 
+/* 【修改点 1】鼠标悬停颜色：蓝色 -> 红色 */
 .nav-links a:hover {
-    color: #3498db;
+    color: #e74c3c; 
 }
 
 /* 英雄区域 (Hero Section) */
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(135deg, #6dd5fa, #2980b9);
+    /* 【修改点 2】背景渐变：蓝色系 -> 红色系 (#ff9a9e 到 #e74c3c) */
+    background: linear-gradient(135deg, #ff9a9e, #e74c3c);
     color: white;
 }
 
@@ -65,7 +67,8 @@ body {
     padding: 10px 20px;
     font-size: 1rem;
     background-color: #fff;
-    color: #2980b9;
+    /* 【修改点 3】按钮文字颜色：深蓝 -> 深红 */
+    color: #c0392b;
     border: none;
     border-radius: 5px;
     cursor: pointer;
